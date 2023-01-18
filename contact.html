@@ -1,0 +1,31 @@
+<!DOCTYPE html><!--doctype declaration-->
+<html lang="en"><!--page/metadata will be in english-->
+    <head><!--opening tag for metadata element that will not be seen by users-->
+        <meta charset="UTF-8"> <!--meta element with charset attribute that declares the document's character encoding. UTF-8 is the only valid encoding for html5 docs -->
+        <title>Danny's Contact Info ☎️</title><!--title that appears in browser tab-->
+    </head><!--closing tag-->
+    <body><!--opening body tag for browser content-->
+        <h1>Contact Info ☎️</h1><!--level 1 header-->
+        <ul><!--unordered list element since the order of my contact info does not matter-->
+            <li>daniel.cetina@nglmitu.com</li><!--list item with my work email-->
+            <li>310.748.6482</li><!--list item with my phone number-->
+            <li><a href="https://www.instagram.com/thedannydanny/">slide into my DMs!</a> 👁👄👁</li><!--list item with a hyperlink to my instagram page-->
+        </ul><!--closing tag for unordered list element-->
+        <hr>
+        <h3>Message me here!</h3>
+        <form action="mailto:dcetina72@gmail.com" method="post" enctype="text/plain"><!--will mail to email when user hits submit; encoding type is plaintext to remove funky symbols from email input-->
+            <!--metho="post" - when we submit our form, it posts this data in the body to our mail client and properly classifies it all -->
+            <label>Your Name:</label>
+            <input type="text" name="yourName" value="">
+            <br>
+            <label>Your Email:</label>
+            <input type="email" name="yourEmail" value=""><!--changing input type to email gives you free validation checks for @s proper email format-->
+            <br>
+            <label>Your Message:</label>
+            <br>
+            <textarea name="yourMessage" rows="10" cols="30"></textarea><!--big text area for inputting text; 10 rows long, 30 columns wide-->
+            <br>
+            <input type="submit" name="">
+        </form>
+    </body><!--closing tag for body element-->
+</html><!--closing tag for html element/doc-->

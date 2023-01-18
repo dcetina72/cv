@@ -1,0 +1,112 @@
+<!DOCTYPE html> <!--document type declaration. this will be HTML-->
+<html> <!--opening tag for html element-->
+<head> <!--opening tag for head element. everything the user doesn't see (think no one sees what's in your head, they see your body re: <body>)-->
+    <meta charset="UTF-8"> <!-- meta is the html element and charset="UTF-8" is the attribute and is the only valid character encoding for HTML 5 documents-->
+    <title>Danny's Personal Site 😗</title> <!--the <title> tag does not appear in the content of the document. just the browser tab-->
+</head> <!--closing tag for the head element-->
+<body> <!--opening tag for the body element. Everything in this element is content that appears on the page-->
+    <table cellspacing="20"><!--adding table here for formatting website. picture will be on the left and intro text to the right-->
+        <!--note: cellspacing is a deprecated table attribute. use CSS. including here as part of tutorial-->
+        <tr>
+            <td><img src="images/danny.png" alt="danny cetina image"></td><!-- image sourced from HTML personal site file on this computer-->
+            <td>
+                <h1>Danny Cetina 😗</h1> <!--level 1 header. this is the headline on my personal page-->
+                <p><em>Senior Publicity and Talent Relations Manager</em> at <strong><a href="https://wearemitu.com/">mitú</a></strong></p> <!--emphasis/italics on job title and strong/bold on company name. hyperlink to mitu website-->
+                <p>I have 5+ years experience producing video and editorial content for social media.</p> <!--another paragraph line-->
+            </td>
+        </tr>
+    </table>
+    <hr> <!--horizontal rule aka a line to separate the intro section from the education section of my page-->
+    <h3>Education</h3> <!--level 3 header-->
+    <p><em>University of California Santa Cruz, 2013</em></p> <!--paragraph line with emphasized/italics education-->
+    <p>Bachelor of Arts in Literature, Creative Writing Concentration</p> <!--paragraph line-->
+    <hr> <!--horizontal rule-->
+    <h3>Books and Published Works</h3> <!--level 3 header to indicate new section-->
+    <ul> <!--unordered list: bullet point list with no particular order-->
+        <li><cite><a href="https://www.amazon.com/Come-Crashing-Down-Daniel-Cetina/dp/1490354697">Come Crashing Down: Stories</a></cite></li> <!--list item tags for individual bullet points. <cite> tag is for indicated published work. hyperlink to amazon-->
+        <li><cite><a href="https://apocryphaandabstractions.wordpress.com/2015/03/05/toast-ghost-by-daniel-cetina/">Toast Ghost</a></cite></li> <!--list item with cited work. hyperlink to literary journal-->
+        <li><cite><a href="https://static1.squarespace.com/static/57d08e86ff7c5003ba7ef85f/t/57d48299b8a79baee7469d3d/1473544857538/SlugifiedScreenplayAdaptation.pdf">Slugified</a></cite></li> <!--list item with cited work. hyperlink to script on personal site-->
+    </ul> <!--unordered list closing tag-->
+    <hr> <!--horizontal rule to separate books and published works secion from my hobbies section-->
+    <h3>My Hobbies</h3> <!--level 3 header to indicate new section-->
+    <ol type="a"> <!-- ordered list element. the type="a" attribute changes the order from numbers to lowercase letters-->
+        <li>Playing <a href="https://scarletviolet.pokemon.com/en-us/">Pokemon Violet</a></li> <!--list item with hyperlink to pokemon violet website-->
+        <li>Working out at <a href="https://www.orangetheory.com/en-us">Orange Theory Fitness</a></li> <!--list item with hyperlink to otf website-->
+        <li>Listening to <a href="https://www.youtube.com/watch?v=3dZ5KjFLxgA">Fiona Apple</a> all the time</li> <!--list item with hyperlink to fiona apple video-->
+        <li>Practicing <a href="https://www.youtube.com/watch?v=vwC0zyAGxZM">Mitski songs</a> on the guitar</li> <!--list item-->
+        <li>Tending to my thicc child, <a href="https://www.instagram.com/spicynuggetcorgi/">Nugget</a></li> <!--list item-->
+    </ol> <!--closing tag for ordered list-->
+    <hr> <!--horizontal rule-->
+    <h3>Work Experience</h3><!--level 3 header-->
+    <table cellspacing="10"><!--table element opening tag. border is a deprecated attribute as borders are styled in CSS but this is as an example here-->
+        <thead><!--table header tag. groups all header content together-->
+            <tr><!--table row element. everything in here will start making the cells from left to right-->
+                <th>Dates</th><!--unlike <thead> this tag is for styling and makes the text bold-->
+                <th>Position</th><!--makes header text bold-->
+            </tr><!--closing table row tag-->
+        </thead><!--closing table header tag-->
+        <tbody><!--opening table body tag-->
+            <tr><!--table row again-->
+                <td>2020-2023</td><!--table data tag. these go in the table body element-->
+                <td>Talent Relations Manager at mitú</td><!--table data tag-->
+            </tr>
+            <tr>
+                <td>2018-2019</td>
+                <td>Senior Content Producer at mitú</td>
+            </tr>
+            <tr>
+                <td>2017-2018</td>
+                <td>Snapchat Coordinator at mitú</td>
+            </tr>
+            <tr>
+                <td>2017</td>
+                <td>Editor at Whisper</td>
+            </tr>
+            <tr>
+                <td>2015-2016</td>
+                <td>Story Editor at Snap Inc.</td>
+            </tr>
+            <tr>
+                <td>2014-2015</td>
+                <td>Production Assistant at Sina Grace Productions</td>
+            </tr>
+            <tr>
+                <td>2013-2014</td>
+                <td>Game Writer and Community Manager at UC Santa Cruz</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <h3>Skills</h3><!--skills section as part of table challenge-->
+    <table border="1" cellspacing="5"><!--formatting table to have essentially a table with 2 cells each containing tables-->
+        <tr>
+            <td><table><!--left cell... notice how it includes "table data" and "table" opening tags and closing tags together-->
+                <tr>
+                    <td>Sourcing talent</td>
+                    <td>⭐⭐⭐⭐⭐</td>
+                </tr>   
+                <tr>
+                    <td>Negotiating rates</td>
+                    <td>⭐⭐⭐⭐</td>
+                </tr>
+            </table></td>
+            <td><table><!--right cell-->
+                <tr>
+                    <td>Speaking Spanish</td>
+                    <td>⭐⭐⭐</td>
+                </tr>
+                <tr>
+                    <td>On-camera hosting</td>
+                    <td>⭐⭐⭐⭐</td>
+                </tr>     
+            </table></td>
+        </tr>
+    </table>
+    <br>
+    <caption>Just a taste of Danny's myriad skills.</caption><!--used here for practice. Alignment/styling must be done under CSS-->
+    <hr>
+    <h3>Contact Me</h3> <!--level 3 header for contact info-->
+    <p>Reach out to me <a href="contact.html">here</a>, cuties. 😘</p> <!--hyperlink to contact page which is another html doc in this project folder-->
+    <hr><!--horizontal rule-->
+</body> <!--closing tag for body. any code after this will not appear in web page-->
+</html> <!--closing tag for html document-->
